@@ -15,5 +15,6 @@ class Admission extends College{
     public static void main(String[] args) {
         Admission obj = new Admission();
         obj.display();
+
     }
 }

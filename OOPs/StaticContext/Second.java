@@ -10,11 +10,16 @@ public class Second {
         int sum = count+5;
         System.out.println("A: "+sum); // At First it will be work
     }
+    {
+        System.out.println("Hello Vivek");
+    }
 
     public static void main(String[] args) { // second it will be work
+        Second obj = new Second();
         int a=5,b=3;
         int sum=a+b;
         System.out.println("Add: "+sum);
         num();
+
     }
 }

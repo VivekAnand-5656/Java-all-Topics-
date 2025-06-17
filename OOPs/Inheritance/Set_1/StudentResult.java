@@ -16,7 +16,6 @@ class MarkSheet extends StudentResult{
         total= math+science+english;
         System.out.println("Total Marks: "+total);
     }
-
     public static void main(String[] args) {
         MarkSheet obj = new MarkSheet();
         obj.display();
