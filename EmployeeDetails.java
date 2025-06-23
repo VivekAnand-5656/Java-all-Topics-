@@ -1,16 +1,21 @@
 import java.util.Scanner;
 
+// Class defination
 public class EmployeeDetails {
+    int id;
+    String name;
+
+    void display() {
+        System.out.println("ID: " + id + ", Name: " + name);
+    }
     public static void main(String[] args) {
-        Scanner inp = new Scanner(System.in);
-        System.out.println("Enter Employee name: ");
-        String name = inp.nextLine();
-        System.out.println("Enter Employee ID");
-        int id = inp.nextInt();
-        System.out.println("Enter Salary");
-        double salary = inp.nextDouble();
-        System.out.println("Employee Name: "+name);
-        System.out.println("Employee ID: "+id);
-        System.out.println("Employee Salary: "+salary);
+        // Create object of Employee
+        EmployeeDetails emp = new EmployeeDetails();
+        emp.id = 1;
+        emp.name = "Vivek";
+
+        // Call method
+        emp.display();
+
     }
 }
